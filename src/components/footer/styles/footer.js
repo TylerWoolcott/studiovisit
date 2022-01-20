@@ -11,7 +11,6 @@ export const Container = styled.div`
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: 0%;
-    position: absolute;
     bottom: 0;
     width: 100%;
 

@@ -1,13 +1,17 @@
 import React from 'react'
 import HeaderContainer from '../containers/header'
 import FooterContainer from '../containers/footer'
+import FeatureContainer from '../containers/feature'
+import FeaturedArtistsContainer from '../containers/featuredartists'
 
 export default function Home() {
     return (
         <>
             <HeaderContainer>
-                <h1>HeaderContainer</h1>
+                <FeatureContainer />  
+                <FeaturedArtistsContainer />
             </HeaderContainer>
+
             <FooterContainer />
         </>
     )
