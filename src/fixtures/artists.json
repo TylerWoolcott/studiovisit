@@ -1,32 +1,32 @@
 [
     {
         "id": 1,
-        "avatar": "/images/misc/studiovisit.svg", 
+        "avatar": "/images/avatars/petra-cortright-avatar.jpg", 
         "handle": "@petracortright",
-        "image": "/images/misc/studiovisit.svg",
+        "image": "/images/memberships/petra-cortright.jpg",
         "alt": "Petra Cortright",
         "artistName": "Petra Cortright",
         "title": "Access limited editions, one-to-one visits and more",
-        "price": "$10 per month"
+        "price": "0.2 ETH per month"
     },
     {
         "id": 2,
-        "avatar": "/images/artists/avatar/rachel-maclean.jpg", 
+        "avatar": "/images/avatars/rachel-maclean.jpg", 
         "handle": "@rachelmaclean",
-        "image": "/images/artists/rachel-maclean.jpg",
+        "image": "/images/memberships/rachel-maclean.jpg",
         "alt": "Rachel Maclean",
         "artistName": "Rachel Maclean",
         "title": "Access private talks, events, studio visits",
-        "price": "$15 per month"
+        "price": "0.4 ETH per month"
     },
     {
         "id": 3,
-        "avatar": "/images/artists/avatar/holly-hendry.jpg", 
+        "avatar": "/images/avatars/holly-hendry.jpg", 
         "handle": "@hollyhendry",
-        "image": "/images/artists/holly-hendry.jpg",
+        "image": "/images/memberships/holly-hendry.jpg",
         "alt": "Holly Hendry",
         "artistName": "Holly Hendry",
         "title": "Access studio visits, limited editions and more",
-        "price": "$15 per month"
+        "price": "0.1 ETH per month"
     }
 ]

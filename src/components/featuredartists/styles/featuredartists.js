@@ -4,9 +4,13 @@ export const Container = styled.div`
     display: grid;
     padding-top: 64px;
     padding-bottom: 64px;
-    gap: 64px;
+    gap: 24px;
     padding-left: 24px;
     padding-right: 24px;
+
+    // @media (min-width: 52em) {
+    //   gap: 96px;
+    // }
 `;
 
 export const Wrapper = styled.div`

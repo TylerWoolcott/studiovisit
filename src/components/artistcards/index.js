@@ -2,37 +2,31 @@ import React from "react";
 
 import ArtistCard from "../artistcard"
 
-import { Container, ArtistCardLink } from './styles/artistcards'
-
-// export default function ArtistCards({ artists, children, ...restProps }) {
-//   return <Container {...restProps}>{artists.title}</Container>;
-// }
-
-// ArtistCards.Title = function ArtistCardsTitle({ artists, children, ...restProps }) {
-//   return <Title {...restProps}>{children}</Title>;
-// }
+import { Container, ArtistCardLink, ArtistCardsWrapper } from './styles/artistcards'
 
 export default function ArtistCards ({ artists }) {
   return (
     <>
-      {artists.map((artist) => {
-        return (
-          <Container>
-            <ArtistCardLink>
-            <ArtistCard
-              key={artist.id}
-              title={artist.title}
-              avatarImage={artist.avatar}
-              handle={artist.handle}
-              image={artist.image}
-              alt={artist.alt}
-              artistName={artist.artistName}
-              price={artist.price}
-            />
-            </ArtistCardLink>
-          </Container>
-        )
-      })}
+    <ArtistCardsWrapper>
+        {artists.map((artist) => {
+          return (
+            <Container>
+              <ArtistCardLink>
+              <ArtistCard
+                key={artist.id}
+                title={artist.title}
+                avatarImage={artist.avatar}
+                handle={artist.handle}
+                image={artist.image}
+                alt={artist.alt}
+                artistName={artist.artistName}
+                price={artist.price}
+              />
+              </ArtistCardLink>
+            </Container>
+          )
+        })}
+      </ArtistCardsWrapper>
     </>
   )
 }

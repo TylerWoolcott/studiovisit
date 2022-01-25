@@ -25,7 +25,7 @@ export const Row = styled.div`
 export const InnerRow = styled.div`
     display: grid;
     padding-top: 24px;
-    grid-gap: 24px;
+    grid-gap: 20px;
 `
 
 export const Title = styled.h2`

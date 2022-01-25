@@ -12,7 +12,6 @@ export default function HeaderContainer({ children }) {
                 {/* <Header.About>About</Header.About> */}
                 <Header.ButtonLink>Connect Wallet</Header.ButtonLink> 
             </Header.Container>
-            <h1>Header</h1>
             {children}
         </Header>    
     )

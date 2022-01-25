@@ -1,20 +1,46 @@
 import React from 'react'
 import {
+    Container,
+    AvatarWrapper,
+    AvatarContainer,
     Handle,  
     Title,
     ArtistName,
     Price,
-    AvatarImage
+    AvatarImage,
+    ArtistImage,
+    ArtistImageOuterWrapper,
+    ArtistImageMiddleWrapper,
+    ArtistImageInnerWrapper,
+    EventDetails,
+    PriceWrapper
 } from './styles/artistcard'
 
 export default function ArtistCard({ avatarImage, handle, image, alt, artistName, title, price, children, ...restProps }) {
     return (
         <>
-            <AvatarImage {...restProps} src={avatarImage} />
-            <Handle {...restProps}>{handle}</Handle>
-            <ArtistName {...restProps}>{artistName}</ArtistName>
-            <Title {...restProps}>{title}</Title>
-            <Price {...restProps}>{price}</Price>
+            <Container>
+                <AvatarWrapper>
+                    <AvatarContainer>
+                        <AvatarImage {...restProps} src={avatarImage} />
+                        <Handle {...restProps}>{handle}</Handle>
+                    </AvatarContainer>
+                </AvatarWrapper>
+                <ArtistImageOuterWrapper>
+                    <ArtistImageMiddleWrapper>
+                        <ArtistImageInnerWrapper>
+                            <ArtistImage {...restProps} src={image} />
+                        </ArtistImageInnerWrapper>
+                    </ArtistImageMiddleWrapper>
+                </ArtistImageOuterWrapper>
+                <EventDetails>
+                    <ArtistName {...restProps}>{artistName}</ArtistName>
+                    <Title {...restProps}>{title}</Title>
+                </EventDetails>
+                <PriceWrapper>
+                    <Price {...restProps}>{price}</Price>
+                </PriceWrapper>
+            </Container>
         </>
     )
 }
