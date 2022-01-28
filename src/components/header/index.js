@@ -1,3 +1,5 @@
+import { Link as ReachRouterLink } from 'react-router-dom';
+
 import React from 'react'
 import { 
     Background,
@@ -15,8 +17,12 @@ Header.Container = function HeaderFrame({ children, ...restProps }) {
     return <Container {...restProps}>{children}</Container>
 }
 
-Header.Logo = function HeaderLogo({...restProps}) {
-    return <Logo {...restProps}/>
+Header.Logo = function HeaderLogo({ to, ...restProps}) {
+    return (
+        <ReachRouterLink to={to}>
+            <Logo {...restProps}/>
+        </ReachRouterLink>
+    )
 }
 
 Header.Text = function HeaderText({ children, ...restProps }) {

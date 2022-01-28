@@ -1,12 +1,14 @@
 import React from 'react'
 import { Header } from '../components'
+import * as ROUTES from '../constants/routes'
 
 export default function HeaderContainer({ children }) {
     return (
         <Header>
             <Header.Container>
                 <Header.Logo
-                src="/images/misc/studiovisit.svg"
+                to={ROUTES.HOME} 
+                src="/images/misc/studiovisit-light.png"
                 alt="StudioVisit"
                 />
                 {/* <Header.About>About</Header.About> */}

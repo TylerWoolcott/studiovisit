@@ -135,3 +135,35 @@ export const InnerAvatarImage = styled.img`
     height: 36px;
     border-radius: 9999px;
 `;
+
+export const InnerPadding = styled.div`
+  padding-top: 24px;
+  padding-bottom: 24px;
+`
+
+export const DescriptionWrapper = styled.div`
+  grid-template-columns: 1fr;
+  grid-gap: 32px;
+`
+
+export const Description = styled.h2`
+  margin-bottom: 20px;
+  border-bottom: 1px solid #E6E6E6;
+  padding-bottom: 20px;
+  margin-top: 0px;
+  color: #000000;
+`
+
+export const DescriptionText = styled.p`
+  margin: 0px;
+  padding: 0px;
+  word-break: break-word;
+  line-height: 1.6;
+  max-width: 33rem;
+  font-size: 16px;
+  color: #000000;
+
+  &:last-of-type {
+    margin-bottom: 42px;
+}
+`

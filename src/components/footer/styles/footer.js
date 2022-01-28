@@ -193,6 +193,7 @@ export const Link = styled.a`
     flex-direction: column;
     color: #999999;
     font-size: 24px;
+    font-weight: 600;
     text-decoration: none;
     line-height: 1.4;
     &:last-of-type {
@@ -208,6 +209,7 @@ export const Link = styled.a`
 @media (min-width: 830px) {
     color: #999999;
     font-size: 24px;
+    font-weight: 600;
     text-decoration: none;
     line-height: 1.4;
     }
@@ -302,14 +304,14 @@ export const ButtonLinkB = styled.button`
 export const Logo = styled.img`
     
 @media (max-width: 830px) {
-    height: 32px;
-    width: 108px;
+    height: 25px;
+    width: 152px;
     margin: 0px 24px 12px 0px;
 }
     
 @media (min-width: 830px) {
-    height: 32px;
-    width: 108px;
+    height: 25px;
+    width: 152px;
     margin-right: 20px;
     
 }

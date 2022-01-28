@@ -19,8 +19,8 @@ export const Container = styled.div`
 `
 
 export const Logo = styled.img`
-    height: 32px;
-    width: 108px;
+    height: 25px;
+    width: 152px;
     margin-right: 40px;
     
     @media (min-width: 1449px) {
@@ -38,8 +38,7 @@ export const Text = styled.p`
 
 export const ButtonLink = styled.button`
     display: block;
-    linear-gradient(135deg, #6699FF 0%, #FF3366 100%);
-    background-image: linear-gradient(135deg, rgb(102, 153, 255) 0%, rgb(255, 51, 102) 100%);
+    background-color: #000000;
     width: 180px;
     height: fit-content;
     color: white;

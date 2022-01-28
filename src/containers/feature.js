@@ -1,5 +1,6 @@
 import React from 'react'
 import { Feature } from '../components'
+import * as ROUTES from '../constants/routes'
 
 export default function FeatureContainer() {
     return (
@@ -27,7 +28,7 @@ export default function FeatureContainer() {
                                 </Feature.AvatarLink>
                             </Feature.CreatorLinkWrapper>
                         </Feature.CreatorRow>
-                        <Feature.ButtonLink>View membership</Feature.ButtonLink> 
+                        <Feature.ButtonLink to={ROUTES.MEMBERSHIP}>View membership</Feature.ButtonLink> 
                     </Feature.InnerRow>
                 </Feature.Row>
             </Feature.Column>

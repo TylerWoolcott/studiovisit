@@ -24,7 +24,7 @@ export default function FooterContainer() {
                 <Footer.NewFooter>
                     <Footer.NewColumnA>
                         <Footer.Logo
-                        src="/images/misc/studiovisit.svg"
+                        src="/images/misc/studiovisit-dark.png"
                         alt="StudioVisit"
                         />
                         <Footer.NewLink href="#">Terms of Service</Footer.NewLink>
